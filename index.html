@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="room-list">
+            <h2>Chat Rooms</h2>
+            <ul id="rooms"></ul>
+            <input type="text" id="new-room" placeholder="Create new room">
+            <button id="create-room">Create Room</button>
+        </div>
+        <div class="chat-area">
+            <div id="messages" class="messages"></div>
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
