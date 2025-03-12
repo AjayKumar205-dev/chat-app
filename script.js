@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('wss://your-deployed-server-url');
 const roomsList = document.getElementById('rooms');
 const messagesDiv = document.getElementById('messages');
 const messageInput = document.getElementById('message-input');
